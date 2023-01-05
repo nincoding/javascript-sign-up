@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+
+img {
+  width: 200px;
+}
 body {
   background-color: #f3f5f7;
   overflow: hidden;
@@ -24,7 +28,7 @@ body {
 }
 
 .header_step {
-  margin-left: 60px;
+  margin-left: 40px;
 }
 
 .header {
@@ -46,7 +50,7 @@ i {
   font-weight: 400;
   font-size: 24px;
   line-height: 32px;
-  margin-right: 320px;
+  margin-right: 300px;
 }
 
 .age_sub_title {
@@ -70,14 +74,16 @@ a {
 
 .memberNumberFormatLabel {
   margin-top: 20px;
-  font-size: 20px;
+  font-size: 17px;
   font-weight:400;
   color: #acabb4;
 }
 
 .age_sub_title {
+  font-size: 14px;
   margin-top:10px;
-  color: #acabb4;
+  margin-left:10px;
+  color: #68676d;
 }
 
 .login {
