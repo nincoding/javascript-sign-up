@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f3f5f7;
+  overflow: hidden;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrap, .scroll_layout{
+  display: flex;
+  width: 610px;
+  height:1000px;
+  background-color: #fff;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header_step {
+  margin-left: 60px;
+}
+
+.header {
+  margin-top: 100px;
+}
+
+i:nth-child(1) {
+  color: #1ea1f7;
+}
+
+i {
+  color: #e9edef;
+  font-size: 8px;
+  /*color: #4c8cff;*/
+  margin:45px 8px;
+}
+
+.age_title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  margin-right: 320px;
+}
+
+.age_sub_title {
+  margin-right:150px;
+  margin-bottom: 50px;
+}
+
+button {
+  background-color: #dddfe4;
+  width: 450px;
+  height: 56px;
+  border: none;
+  border-radius: 5px;
+  color: #fff
+  /*background-color: #1ea1f7;*/
+}
+
+a {
+  color: #6bb0f8;
+}
+
+.memberNumberFormatLabel {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight:400;
+  color: #acabb4;
+}
+
+.age_sub_title {
+  margin-top:10px;
+  color: #acabb4;
+}
+
+.login {
+  float: left;
+}
+
+.age {
+  width: 450px;
+  height: 56px;
+  border-bottom: 1px solid #dddfe4;
+  margin-top:20px;
+}
+
+.memberNumberFormatInputBox {
+  position: relative;
+  top:30px;
+  z-index: 10;
+  width: 100%;
+  margin-right: 110px;
+  font-weight: 400;
+  line-height: 19px;
+  border: 0;
+  font-size: 16px;
+  background-color: transparent;
+  outline: 0;
+}
+footer {
+  margin-top: 30px;
+}
+
+.login {
+  margin-left: 10px;
+}
