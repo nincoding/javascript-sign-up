@@ -47,6 +47,7 @@ i {
 }
 
 .age_title {
+  position: relative;
   font-weight: 400;
   font-size: 24px;
   line-height: 32px;
@@ -58,7 +59,7 @@ i {
   margin-bottom: 50px;
 }
 
-button {
+.memberButton {
   background-color: #dddfe4;
   width: 450px;
   height: 56px;
@@ -68,12 +69,20 @@ button {
   /*background-color: #1ea1f7;*/
 }
 
+.transitionButton {
+  position: absolute;
+  background-color: #fff;
+  width: 450px;
+  height: 56px;
+  border: none;
+}
+
 a {
   color: #6bb0f8;
 }
 
 .memberNumberFormatLabel {
-  margin-top: 20px;
+  position: absolute;
   font-size: 17px;
   font-weight:400;
   color: #acabb4;
@@ -99,7 +108,7 @@ a {
 
 .memberNumberFormatInputBox {
   position: relative;
-  top:30px;
+  top:20px;
   z-index: 10;
   width: 100%;
   margin-right: 110px;
